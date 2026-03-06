@@ -1,0 +1,91 @@
+2026-03-06 14:33:06,411 - INFO - bot.client - Binance Futures Testnet Client initialized.
+2026-03-06 14:37:25,713 - INFO - bot.client - Binance Futures Testnet Client initialized.
+2026-03-06 14:38:44,787 - INFO - bot.client - Binance Futures Testnet Client initialized.
+2026-03-06 14:45:44,485 - INFO - bot.client - Binance Futures Testnet Client initialized.
+2026-03-06 14:52:47,406 - INFO - bot.client - Binance Futures Testnet Client initialized.
+2026-03-06 14:54:16,703 - INFO - bot.client - Binance Futures Testnet Client initialized.
+2026-03-06 15:15:33,865 - INFO - bot.client - Placing MARKET BUY order for 0.01 BTCUSDT at None
+2026-03-06 15:15:35,372 - ERROR - bot.client - Binance API Error: Invalid API-key, IP, or permissions for action (code: -2015)
+2026-03-06 15:15:35,373 - ERROR - bot.orders - Failed to place order: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-03-06 15:19:07,539 - INFO - bot.client - Binance Futures Testnet Client initialized.
+2026-03-06 15:19:07,540 - INFO - bot.client - Placing LIMIT SELL order for 0.01 BTCUSDT at 35000.0
+2026-03-06 15:19:07,760 - INFO - bot.client - Binance Futures Testnet Client initialized.
+2026-03-06 15:19:07,760 - INFO - bot.client - Placing MARKET BUY order for 0.01 BTCUSDT at None
+2026-03-06 15:19:08,347 - ERROR - bot.client - Binance API Error: Invalid API-key, IP, or permissions for action (code: -2015)
+2026-03-06 15:19:08,347 - ERROR - bot.orders - Failed to place order: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-03-06 15:19:08,461 - ERROR - bot.client - Binance API Error: Invalid API-key, IP, or permissions for action (code: -2015)
+2026-03-06 15:19:08,461 - ERROR - bot.orders - Failed to place order: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-03-06 15:25:02,382 - INFO - bot.client - Binance Futures Testnet Client initialized.
+2026-03-06 15:28:00,399 - INFO - bot.client - Placing MARKET BUY order for 0.010001 BTCUSDTBTCUSDT at None
+2026-03-06 15:28:01,851 - ERROR - bot.client - Binance API Error: Invalid API-key, IP, or permissions for action (code: -2015)
+2026-03-06 15:28:01,855 - ERROR - bot.orders - Failed to place order: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-03-06 15:28:43,084 - INFO - bot.client - Placing MARKET BUY order for 0.001 BTCUSDT at None
+2026-03-06 15:28:44,255 - ERROR - bot.client - Binance API Error: Invalid API-key, IP, or permissions for action (code: -2015)
+2026-03-06 15:28:44,257 - ERROR - bot.orders - Failed to place order: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-03-06 15:31:48,052 - INFO - bot.client - Binance Futures Testnet Client initialized.
+2026-03-06 15:50:52,840 - INFO - bot.client - Binance Futures Testnet Client initialized.
+2026-03-06 15:50:53,492 - INFO - bot.client - Binance Futures Testnet Client initialized.
+2026-03-06 15:50:53,493 - INFO - bot.client - Placing MARKET BUY order for 0.01 BTCUSDT at None
+2026-03-06 15:50:53,865 - INFO - bot.client - Binance Futures Testnet Client initialized.
+2026-03-06 15:50:53,865 - INFO - bot.client - Placing LIMIT SELL order for 0.01 BTCUSDT at 25000.0
+2026-03-06 15:50:54,707 - INFO - bot.client - Order created successfully: 12654911471
+2026-03-06 15:50:54,707 - INFO - bot.orders - Order 12654911471 placed successfully. Status: NEW
+2026-03-06 15:50:54,906 - ERROR - bot.client - Binance API Error: Limit price can't be lower than 67097.27. (code: -4024)
+2026-03-06 15:50:54,907 - ERROR - bot.orders - Failed to place order: APIError(code=-4024): Limit price can't be lower than 67097.27.
+2026-03-06 15:51:23,549 - INFO - bot.client - Binance Futures Testnet Client initialized.
+2026-03-06 15:51:23,551 - INFO - bot.client - Placing LIMIT SELL order for 0.01 BTCUSDT at 70000.0
+2026-03-06 15:51:24,431 - INFO - bot.client - Order created successfully: 12654920309
+2026-03-06 15:51:24,431 - INFO - bot.orders - Order 12654920309 placed successfully. Status: NEW
+2026-03-06 15:52:04,919 - INFO - bot.client - Binance Futures Testnet Client initialized.
+2026-03-06 15:52:04,920 - INFO - bot.client - Placing STOP_LOSS_LIMIT BUY order for 0.01 BTCUSDT at 65000.0
+2026-03-06 15:52:06,004 - ERROR - bot.client - Binance API Error: Invalid orderType. (code: -1116)
+2026-03-06 15:52:06,004 - ERROR - bot.orders - Failed to place order: APIError(code=-1116): Invalid orderType.
+2026-03-06 16:02:00,204 - INFO - bot.client - Binance Futures Testnet Client initialized.
+2026-03-06 16:03:40,170 - INFO - bot.client - Binance Futures Testnet Client initialized.
+2026-03-06 16:06:42,827 - ERROR - asyncio - Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\kovid\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\kovid\AppData\Local\Programs\Python\Python312\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-03-06 16:06:43,294 - INFO - bot.client - Placing LIMIT BUY order for 0.01 BTCUSDT at 121.0
+2026-03-06 16:06:44,737 - ERROR - bot.client - Binance API Error: Price less than min price. (code: -4013)
+2026-03-06 16:06:44,738 - ERROR - bot.orders - Failed to place order: APIError(code=-4013): Price less than min price.
+2026-03-06 16:06:52,942 - INFO - bot.client - Placing LIMIT BUY order for 0.01 BTCUSDT at 1.0
+2026-03-06 16:06:53,069 - ERROR - bot.client - Binance API Error: Price less than min price. (code: -4013)
+2026-03-06 16:06:53,070 - ERROR - bot.orders - Failed to place order: APIError(code=-4013): Price less than min price.
+2026-03-06 16:06:53,810 - INFO - bot.client - Placing LIMIT BUY order for 0.01 BTCUSDT at 1.0
+2026-03-06 16:06:53,935 - ERROR - bot.client - Binance API Error: Price less than min price. (code: -4013)
+2026-03-06 16:06:53,935 - ERROR - bot.orders - Failed to place order: APIError(code=-4013): Price less than min price.
+2026-03-06 16:06:58,382 - INFO - bot.client - Placing MARKET BUY order for 0.01 BTCUSDT at None
+2026-03-06 16:06:58,592 - INFO - bot.client - Order created successfully: 12655122602
+2026-03-06 16:06:58,593 - INFO - bot.orders - Order 12655122602 placed successfully. Status: NEW
+2026-03-06 16:08:22,239 - INFO - bot.client - Placing MARKET BUY order for 0.0007 BTCUSDT at None
+2026-03-06 16:08:22,683 - ERROR - bot.client - Binance API Error: Precision is over the maximum defined for this asset. (code: -1111)
+2026-03-06 16:08:22,684 - ERROR - bot.orders - Failed to place order: APIError(code=-1111): Precision is over the maximum defined for this asset.
+2026-03-06 16:08:28,468 - INFO - bot.client - Placing MARKET BUY order for 0.0004 BTCUSDT at None
+2026-03-06 16:08:28,596 - ERROR - bot.client - Binance API Error: Precision is over the maximum defined for this asset. (code: -1111)
+2026-03-06 16:08:28,596 - ERROR - bot.orders - Failed to place order: APIError(code=-1111): Precision is over the maximum defined for this asset.
+2026-03-06 16:08:31,700 - INFO - bot.client - Placing MARKET BUY order for 0.0003 BTCUSDT at None
+2026-03-06 16:08:31,827 - ERROR - bot.client - Binance API Error: Precision is over the maximum defined for this asset. (code: -1111)
+2026-03-06 16:08:31,827 - ERROR - bot.orders - Failed to place order: APIError(code=-1111): Precision is over the maximum defined for this asset.
+2026-03-06 16:08:33,602 - INFO - bot.client - Placing MARKET BUY order for 0.0001 BTCUSDT at None
+2026-03-06 16:08:33,984 - ERROR - bot.client - Binance API Error: Precision is over the maximum defined for this asset. (code: -1111)
+2026-03-06 16:08:33,984 - ERROR - bot.orders - Failed to place order: APIError(code=-1111): Precision is over the maximum defined for this asset.
+2026-03-06 16:08:37,179 - ERROR - bot.orders - Failed to place order: Quantity must be a positive number.
+2026-03-06 16:08:39,023 - ERROR - bot.orders - Failed to place order: Quantity must be a positive number.
+2026-03-06 16:08:39,164 - ERROR - bot.orders - Failed to place order: Quantity must be a positive number.
+2026-03-06 16:08:45,843 - INFO - bot.client - Placing MARKET BUY order for 1.0 BTCUSDT at None
+2026-03-06 16:08:46,075 - INFO - bot.client - Order created successfully: 12655144386
+2026-03-06 16:08:46,075 - INFO - bot.orders - Order 12655144386 placed successfully. Status: NEW
+2026-03-06 16:08:52,437 - INFO - bot.client - Placing MARKET BUY order for 2.0 BTCUSDT at None
+2026-03-06 16:08:52,568 - ERROR - bot.client - Binance API Error: Margin is insufficient. (code: -2019)
+2026-03-06 16:08:52,568 - ERROR - bot.orders - Failed to place order: APIError(code=-2019): Margin is insufficient.
+2026-03-06 16:08:55,661 - INFO - bot.client - Placing MARKET BUY order for 1.0 BTCUSDT at None
+2026-03-06 16:08:55,785 - ERROR - bot.client - Binance API Error: Margin is insufficient. (code: -2019)
+2026-03-06 16:08:55,785 - ERROR - bot.orders - Failed to place order: APIError(code=-2019): Margin is insufficient.
+2026-03-06 16:09:02,418 - INFO - bot.client - Placing MARKET SELL order for 1.0 BTCUSDT at None
+2026-03-06 16:09:02,612 - INFO - bot.client - Order created successfully: 12655147077
+2026-03-06 16:09:02,612 - INFO - bot.orders - Order 12655147077 placed successfully. Status: NEW
