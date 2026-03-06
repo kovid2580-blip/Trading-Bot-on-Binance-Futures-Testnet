@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #dfe5f3;
+  --main: #88aaee;
+  --main-foreground: #000;
+  --secondary-bg: #ffffff;
+  --border: #000000;
+  --border-radius: 5px;
+  --box-shadow-x: 4px;
+  --box-shadow-y: 4px;
+  --reverse-box-shadow-x: -4px;
+  --reverse-box-shadow-y: -4px;
+}
+
+.dark {
+  --bg: #212121;
+  --main: #c3dafe;
+  --main-foreground: #000;
+  --secondary-bg: #272727;
+  --border: #000;
+}
+
+body {
+  background-color: var(--bg);
+  color: #000;
+  font-family: 'Inter', sans-serif;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+}
+
+@layer components {
+
+  /* Common Neo-Brutalism Classes */
+  .neo-border {
+    @apply border-2 border-border;
+  }
+
+  .neo-shadow {
+    @apply shadow-shadow;
+  }
+
+  .neo-card {
+    @apply bg-secondaryBackground neo-border neo-shadow rounded-base p-6;
+  }
+
+  .neo-button {
+    @apply flex items-center justify-center gap-2 neo-border neo-shadow rounded-base px-6 py-2 font-heading uppercase transition-all bg-main hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none active:translate-x-boxShadowX active:translate-y-boxShadowY active:shadow-none;
+  }
+
+  .neo-input {
+    @apply neo-border rounded-base px-4 py-2 bg-secondaryBackground focus:outline-none focus:ring-2 focus:ring-main font-base;
+  }
+}
