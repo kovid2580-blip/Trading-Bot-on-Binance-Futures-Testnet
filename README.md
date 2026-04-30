@@ -77,3 +77,5 @@ Open [http://localhost:3000](http://localhost:3000) to access the Neo-Brutalism 
 
 ## 📝 Logging
 Detailed logs are stored in `trading_bot/logs/bot.log` with timestamps and module labels.
+
+![image alt](https://github.com/kovid2580-blip/Trading-Bot-on-Binance-Futures-Testnet/blob/abed279681d1c373871c86a31a4cbf16b7a41790/Screenshot%202026-04-30%20142744.png)
